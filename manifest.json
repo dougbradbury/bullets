@@ -1,0 +1,23 @@
+{
+  "name": "Bullets",
+  "version": "0.1",
+  "description": "Add Bullets to and text",
+  "manifest_version": 2,
+	"background": {
+				"scripts": ["background.js"],
+				"persistent": false
+	},
+	"permissions": [
+			"contextMenus",
+			"activeTab"
+		],
+	"commands": {
+						"bullet_lines": {
+							"suggested_key": {
+								"default": "Alt+Shift+B",
+								"mac": "Alt+Shift+B"
+							},
+							"description": "Add Text bullets to the start of each selected line"
+						}
+					}
+}
